@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add fastyfi
+
+PATH: 
+  /home/linuxbrew/.linuxbrew/opt/openjdk@11/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/marina/.antigen/bundles/robbyrussell/oh-my-zsh/lib:/home/marina/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git:/home/marina/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/heroku:/home/marina/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip:/home/marina/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/lein:/home/marina/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found:/home/marina/.antigen/bundles/zsh-users/zsh-syntax-highlighting
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/fastyfi: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "node-exemplo",
+    "version": "1.0.0",
+    "main": "server.js",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "node --watch --no-warnings server.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
