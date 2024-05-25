@@ -9,6 +9,10 @@
     "dev": "node --watch --no-warnings server.js"
   },
   "dependencies": {
-    "fastify": "^4.27.0"
+    "fastify": "^4.27.0",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
   }
 }
