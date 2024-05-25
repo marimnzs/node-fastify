@@ -6,7 +6,7 @@ Exemplo de crud de videos feito em NodeJs com fastify.
 
 - NodeJS
 - Fastify
-- Postgre
+- Postgres
 
 ## Como Executar
 
